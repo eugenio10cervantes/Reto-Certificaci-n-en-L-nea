@@ -1,0 +1,1 @@
+Le notificamos que su solicitud ha sido marcada como incompetente.

@@ -1,0 +1,1 @@
+Para confirmar tu correo ingresa a http://reto.actstudio.mx/confirma_tu_correo/<?php echo $datos['User']['username']; ?>/<?php echo $datos['User']['confirmation_key']; ?>

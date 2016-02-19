@@ -1,0 +1,1 @@
+Su certificado ha sido rechazado.

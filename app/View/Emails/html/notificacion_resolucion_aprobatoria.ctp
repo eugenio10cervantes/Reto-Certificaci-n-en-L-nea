@@ -1,0 +1,1 @@
+Felicidades, su certificado ha sido emitido.

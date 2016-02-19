@@ -1,0 +1,1 @@
+Le notificamos que su solicitud ha sido marcada en prevención. Tiene 5 días para modificarla o automáticamente pasara al estado de desechamiento.

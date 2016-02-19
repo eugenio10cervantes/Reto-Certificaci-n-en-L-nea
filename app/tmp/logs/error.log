@@ -1,0 +1,796 @@
+2016-02-04 19:47:22 Error: [MissingControllerException] Controller class Modal-pilotoController could not be found.
+Exception Attributes: array (
+  'class' => 'Modal-pilotoController',
+  'plugin' => NULL,
+)
+Request URL: /modal-piloto
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-04 22:41:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo-prueasdba.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-04 22:42:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo-prueba.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-05 18:14:14 Error: [MissingControllerException] Controller class CertificadosController could not be found.
+Exception Attributes: array (
+  'class' => 'CertificadosController',
+  'plugin' => NULL,
+)
+Request URL: /certificados
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-06 00:47:47 Error: [MissingControllerException] Controller class RegistroController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroController',
+  'plugin' => NULL,
+)
+Request URL: /registro
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-06 00:50:25 Error: [MissingViewException] View file "Pages/registro.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/registro.ctp',
+)
+Request URL: /registro
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/View/View.php(470): View->_getViewFileName('registro')
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(960): View->render('registro', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/Controller/PagesController.php(68): Controller->render('registro')
+#3 [internal function]: PagesController->display('registro')
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-02-06 20:09:09 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/View/Layouts/default.ctp, line 62]
+2016-02-06 20:09:09 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 62, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 62, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-08 23:25:04 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/View/Layouts/default.ctp, line 62]
+2016-02-08 23:25:04 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 62, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 62, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-09 02:27:52 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /User/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:43:54 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:45:05 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:45:10 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:45:20 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:45:30 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:45:31 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:45:32 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:47:19 Error: [MissingViewException] View file "Pages/registro_exitoso.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/registro_exitoso.ctp',
+)
+Request URL: /registro_exitoso
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/View/View.php(470): View->_getViewFileName('registro_exitos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(960): View->render('registro_exitos...', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/Controller/PagesController.php(68): Controller->render('registro_exitos...')
+#3 [internal function]: PagesController->display('registro_exitos...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-02-09 19:51:14 Error: [MissingControllerException] Controller class RegistroExitosoController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistroExitosoController',
+  'plugin' => NULL,
+)
+Request URL: /registro_exitoso/eugenio@we-act.mx
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-09 19:51:39 Error: [MissingViewException] View file "Pages/registro_exitoso/eugenio@we-act.mx.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/registro_exitoso/eugenio@we-act.mx.ctp',
+)
+Request URL: /registro_exitoso/eugenio@we-act.mx
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/View/View.php(470): View->_getViewFileName('registro_exitos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(960): View->render('registro_exitos...', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/Controller/PagesController.php(68): Controller->render('registro_exitos...')
+#3 [internal function]: PagesController->display('registro_exitos...', 'eugenio@we-act....')
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-02-09 19:53:12 Error: [MissingViewException] View file "Users/registro_exitoso.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/registro_exitoso.ctp',
+)
+Request URL: /registro_exitoso/eugenio@we-act.mx
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-09 19:53:24 Error: [MissingViewException] View file "Users/registro_exitoso.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/registro_exitoso.ctp',
+)
+Request URL: /registro_exitoso/eugenio@we-act.mx
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos_publicos/certificacion-en-linea/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-09 13:25:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home3/checo10/public_html/reto/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home3/checo10/public_html/reto/app/View/Layouts/default.ctp(116): FormHelper->create('User', Array)
+#9 /home3/checo10/public_html/reto/lib/Cake/View/View.php(971): include('/home3/checo10/...')
+#10 /home3/checo10/public_html/reto/lib/Cake/View/View.php(933): View->_evaluate('/home3/checo10/...', Array)
+#11 /home3/checo10/public_html/reto/lib/Cake/View/View.php(546): View->_render('/home3/checo10/...')
+#12 /home3/checo10/public_html/reto/lib/Cake/View/View.php(481): View->renderLayout('', 'default')
+#13 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('inicio', NULL)
+#14 /home3/checo10/public_html/reto/app/Controller/PagesController.php(68): Controller->render('inicio')
+#15 [internal function]: PagesController->display('inicio')
+#16 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#19 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2016-02-09 13:25:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home3/checo10/public_html/reto/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home3/checo10/public_html/reto/app/View/Layouts/default.ctp(116): FormHelper->create('User', Array)
+#9 /home3/checo10/public_html/reto/lib/Cake/View/View.php(971): include('/home3/checo10/...')
+#10 /home3/checo10/public_html/reto/lib/Cake/View/View.php(933): View->_evaluate('/home3/checo10/...', Array)
+#11 /home3/checo10/public_html/reto/lib/Cake/View/View.php(546): View->_render('/home3/checo10/...')
+#12 /home3/checo10/public_html/reto/lib/Cake/View/View.php(481): View->renderLayout('', 'default')
+#13 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('inicio', NULL)
+#14 /home3/checo10/public_html/reto/app/Controller/PagesController.php(68): Controller->render('inicio')
+#15 [internal function]: PagesController->display('inicio')
+#16 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#19 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2016-02-09 13:55:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home3/checo10/public_html/reto/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home3/checo10/public_html/reto/app/View/Layouts/default.ctp(116): FormHelper->create('User', Array)
+#9 /home3/checo10/public_html/reto/lib/Cake/View/View.php(971): include('/home3/checo10/...')
+#10 /home3/checo10/public_html/reto/lib/Cake/View/View.php(933): View->_evaluate('/home3/checo10/...', Array)
+#11 /home3/checo10/public_html/reto/lib/Cake/View/View.php(546): View->_render('/home3/checo10/...')
+#12 /home3/checo10/public_html/reto/lib/Cake/View/View.php(481): View->renderLayout('', 'default')
+#13 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('inicio', NULL)
+#14 /home3/checo10/public_html/reto/app/Controller/PagesController.php(68): Controller->render('inicio')
+#15 [internal function]: PagesController->display('inicio')
+#16 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#19 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2016-02-09 13:55:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home3/checo10/public_html/reto/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home3/checo10/public_html/reto/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home3/checo10/public_html/reto/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home3/checo10/public_html/reto/app/View/Layouts/default.ctp(116): FormHelper->create('User', Array)
+#9 /home3/checo10/public_html/reto/lib/Cake/View/View.php(971): include('/home3/checo10/...')
+#10 /home3/checo10/public_html/reto/lib/Cake/View/View.php(933): View->_evaluate('/home3/checo10/...', Array)
+#11 /home3/checo10/public_html/reto/lib/Cake/View/View.php(546): View->_render('/home3/checo10/...')
+#12 /home3/checo10/public_html/reto/lib/Cake/View/View.php(481): View->renderLayout('', 'default')
+#13 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('inicio', NULL)
+#14 /home3/checo10/public_html/reto/app/Controller/PagesController.php(68): Controller->render('inicio')
+#15 [internal function]: PagesController->display('inicio')
+#16 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#19 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2016-02-09 15:55:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/usuario-logo-negro.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-10 10:38:33 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-12 18:09:58 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/home3/checo10/public_html/reto/app/View/Layouts/dashboard.ctp, line 97]
+2016-02-12 18:09:58 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /pages/usuario_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home3/checo10/...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home3/checo10/...', 97, Array)
+#2 /home3/checo10/public_html/reto/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home3/checo10/...', 97, Array)
+#3 /home3/checo10/public_html/reto/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-12 18:47:18 Error: [MissingViewException] View file "Pages/inicia_.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/inicia_.ctp',
+)
+Request URL: /pages/inicia_
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName('inicia_')
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('inicia_', NULL)
+#2 /home3/checo10/public_html/reto/app/Controller/PagesController.php(78): Controller->render('inicia_')
+#3 [internal function]: PagesController->display('inicia_')
+#4 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-02-12 18:47:22 Error: [MissingViewException] View file "Pages/inicia.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/inicia.ctp',
+)
+Request URL: /pages/inicia
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName('inicia')
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('inicia', NULL)
+#2 /home3/checo10/public_html/reto/app/Controller/PagesController.php(78): Controller->render('inicia')
+#3 [internal function]: PagesController->display('inicia')
+#4 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-02-12 19:05:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/micertificado-logo-menu
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-12 19:05:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/micertificado-logo-menu
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-12 19:05:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/micertificado-logo-menu
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-12 19:05:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/micertificado-logo-menu
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-12 19:26:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/certificado-blanco.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-13 11:23:13 Error: [MissingControllerException] Controller class InformacionController could not be found.
+Exception Attributes: array (
+  'class' => 'InformacionController',
+  'plugin' => NULL,
+)
+Request URL: /informacion
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-15 13:47:30 Error: [MissingControllerException] Controller class UsuarioIniciaController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuarioIniciaController',
+  'plugin' => NULL,
+)
+Request URL: /usuario_inicia
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-17 11:25:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/micertificado-promocional.gif
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-17 11:26:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/micertificado-promocional.gif
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-17 11:26:22 Error: [MissingControllerException] Controller class ConfirmaTuCorreoController could not be found.
+Exception Attributes: array (
+  'class' => 'ConfirmaTuCorreoController',
+  'plugin' => NULL,
+)
+Request URL: /confirma_tu_correo/eugenio.cervantes@gmail.com/OHrpKSYGoRDvonW
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-17 11:29:12 Error: [MissingActionException] Action UsersController::confirmar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'confirmar',
+)
+Request URL: /confirma_tu_correo/eugenio.cervantes@gmail.com/OHrpKSYGoRDvonW
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-17 11:29:21 Error: [MissingViewException] View file "Users/confirmar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/confirmar.ctp',
+)
+Request URL: /confirma_tu_correo/eugenio.cervantes@gmail.com/OHrpKSYGoRDvonW
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-17 12:41:06 Error: [MissingViewException] View file "Pages/registrar_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/registrar_solicitud.ctp',
+)
+Request URL: /pages/registrar_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName('registrar_solic...')
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render('registrar_solic...', NULL)
+#2 /home3/checo10/public_html/reto/app/Controller/PagesController.php(78): Controller->render('registrar_solic...')
+#3 [internal function]: PagesController->display('registrar_solic...')
+#4 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-02-18 14:58:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/certificados.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 14:58:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/certificados.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 14:58:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/certificados.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 14:58:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/certificados.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 14:59:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logos/certificados.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 14:59:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/certificado.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 14:59:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/certificados.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 15:07:19 Error: [MissingActionException] Action AdminController::citas() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'citas',
+)
+Request URL: /admin/citas
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-18 15:07:29 Error: [MissingActionException] Action AdminController::reportes() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'reportes',
+)
+Request URL: /admin/reportes
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-18 15:07:37 Error: [MissingActionException] Action AdminController::usuarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'usuarios',
+)
+Request URL: /admin/usuarios
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-18 16:09:41 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:09:47 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:09:51 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:10:20 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:10:42 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:11:21 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:11:26 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:41:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/hola-blur.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 16:41:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/hola-bien.png
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 17:29:37 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-18 17:29:47 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:30:13 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:30:33 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:33:24 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:35:19 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:36:18 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:39:44 Error: [MissingViewException] View file "Sitio/registro_solicitud.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sitio/registro_solicitud.ctp',
+)
+Request URL: /Sitio/registro_solicitud
+Stack Trace:
+#0 /home3/checo10/public_html/reto/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home3/checo10/public_html/reto/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home3/checo10/public_html/reto/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SitioController), Object(CakeRequest))
+#4 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-18 17:45:20 Error: [MissingControllerException] Controller class SolicitaTramiteController could not be found.
+Exception Attributes: array (
+  'class' => 'SolicitaTramiteController',
+  'plugin' => NULL,
+)
+Request URL: /solicita_tramite
+Stack Trace:
+#0 /home3/checo10/public_html/reto/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
