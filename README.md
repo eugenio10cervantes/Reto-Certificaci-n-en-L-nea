@@ -11,3 +11,5 @@ Gracias a la digitalización del proceso, será posible que los distintos admini
 El prototipo del proyecto puede verse en <a href="http://reto.actstudio.mx/">reto.actstudio.mx</a>
 
 <a href="https://vimeo.com/155921681">Video intruducción</a>
+
+<a href="https://github.com/eugenio10cervantes/Reto-Certificacion-en-Linea/blob/master/ERS.pdf">Documento de Especificación de Requisitos</a>
