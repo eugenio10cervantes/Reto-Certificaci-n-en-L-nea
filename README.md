@@ -14,6 +14,16 @@ El prototipo del proyecto puede verse en <a href="http://reto.actstudio.mx/">ret
 
 <a href="https://vimeo.com/155921681">Video intruducción</a>
 
+<a href="https://vimeo.com/156100893">Registro de usuario</a>
+
+<a href="https://vimeo.com/156101521">Registro de solicitud</a>
+
+<a href="https://vimeo.com/156103776">Portal de administración</a>
+
+<a href="https://vimeo.com/156104775">Instancia Evaluadora</a>
+
+<a href="https://vimeo.com/156105411">Resolución Administrativa</a>
+
 <a href="https://github.com/eugenio10cervantes/Reto-Certificacion-en-Linea/blob/master/ERS.pdf">Documento de Especificación de Requisitos</a>
 
 <a href="https://docs.google.com/presentation/d/1Xv9H2yZdyGgNkFM-8LRNdksmNSWdQ18jUuI8A_e23EM/edit?pref=2&pli=1#slide=id.p">Presentación</a>
