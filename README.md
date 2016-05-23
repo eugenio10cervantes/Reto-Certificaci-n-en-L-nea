@@ -28,4 +28,6 @@ El prototipo del proyecto puede verse en <a href="http://reto.actstudio.mx/">ret
 
 <a href="https://docs.google.com/presentation/d/1Xv9H2yZdyGgNkFM-8LRNdksmNSWdQ18jUuI8A_e23EM/edit?pref=2&pli=1#slide=id.p">Presentación</a>
 
+<a href="https://github.com/eugenio10cervantes/Reto-Certificacion-en-Linea/blob/master/Reporte%20de%20actividades.pdf">Reporte de actividades</a>
+
 <a href="https://docs.google.com/presentation/d/1Xv9H2yZdyGgNkFM-8LRNdksmNSWdQ18jUuI8A_e23EM/edit#slide=id.g119e4bc1ac_0_8">Cronograma</a>
